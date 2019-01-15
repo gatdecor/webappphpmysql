@@ -1,0 +1,363 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "servers_peterftest1_mysqldbserver_createMode": {
+            "value": null
+        },
+        "sites_peterftest1_name": {
+            "value": null
+        },
+        "config_web_name": {
+            "value": null
+        },
+        "autoscalesettings_autoscale_name": {
+            "value": null
+        },
+        "serverfarms_ServicePlanb1e0425a_ab7f_name": {
+            "value": null
+        },
+        "servers_peterftest1_mysqldbserver_name": {
+            "value": null
+        },
+        "databases_sys_name": {
+            "value": null
+        },
+        "databases_mysql_name": {
+            "value": null
+        },
+        "firewallRules_AllowAll_name": {
+            "value": null
+        },
+        "configurations_sql_mode_name": {
+            "value": null
+        },
+        "hostNameBindings_peterftest1.azurewebsites.net_name": {
+            "value": null
+        },
+        "configurations_server_id_name": {
+            "value": null
+        },
+        "configurations_time_zone_name": {
+            "value": null
+        },
+        "configurations_flush_time_name": {
+            "value": null
+        },
+        "configurations_init_connect_name": {
+            "value": null
+        },
+        "configurations_tx_isolation_name": {
+            "value": null
+        },
+        "configurations_wait_timeout_name": {
+            "value": null
+        },
+        "databases_mysqldatabase4138_name": {
+            "value": null
+        },
+        "configurations_max_join_size_name": {
+            "value": null
+        },
+        "databases_information_schema_name": {
+            "value": null
+        },
+        "databases_performance_schema_name": {
+            "value": null
+        },
+        "configurations_slow_query_log_name": {
+            "value": null
+        },
+        "configurations_event_scheduler_name": {
+            "value": null
+        },
+        "configurations_long_query_time_name": {
+            "value": null
+        },
+        "configurations_max_error_count_name": {
+            "value": null
+        },
+        "configurations_max_sort_length_name": {
+            "value": null
+        },
+        "configurations_net_retry_count_name": {
+            "value": null
+        },
+        "configurations_net_read_timeout_name": {
+            "value": null
+        },
+        "configurations_table_open_cache_name": {
+            "value": null
+        },
+        "configurations_lock_wait_timeout_name": {
+            "value": null
+        },
+        "configurations_max_seeks_for_key_name": {
+            "value": null
+        },
+        "configurations_net_buffer_length_name": {
+            "value": null
+        },
+        "configurations_net_write_timeout_name": {
+            "value": null
+        },
+        "configurations_slave_net_timeout_name": {
+            "value": null
+        },
+        "configurations_innodb_file_format_name": {
+            "value": null
+        },
+        "configurations_innodb_fill_factor_name": {
+            "value": null
+        },
+        "configurations_innodb_io_capacity_name": {
+            "value": null
+        },
+        "configurations_innodb_table_locks_name": {
+            "value": null
+        },
+        "configurations_max_allowed_packet_name": {
+            "value": null
+        },
+        "configurations_max_connect_errors_name": {
+            "value": null
+        },
+        "configurations_max_execution_time_name": {
+            "value": null
+        },
+        "configurations_default_week_format_name": {
+            "value": null
+        },
+        "configurations_innodb_large_prefix_name": {
+            "value": null
+        },
+        "configurations_innodb_stats_method_name": {
+            "value": null
+        },
+        "configurations_interactive_timeout_name": {
+            "value": null
+        },
+        "configurations_parser_max_mem_size_name": {
+            "value": null
+        },
+        "configurations_preload_buffer_size_name": {
+            "value": null
+        },
+        "configurations_character_set_server_name": {
+            "value": null
+        },
+        "configurations_group_concat_max_len_name": {
+            "value": null
+        },
+        "configurations_innodb_max_purge_lag_name": {
+            "value": null
+        },
+        "configurations_innodb_page_cleaners_name": {
+            "value": null
+        },
+        "configurations_max_user_connections_name": {
+            "value": null
+        },
+        "configurations_max_write_lock_count_name": {
+            "value": null
+        },
+        "configurations_session_track_schema_name": {
+            "value": null
+        },
+        "configurations_stored_program_cache_name": {
+            "value": null
+        },
+        "configurations_innodb_file_per_table_name": {
+            "value": null
+        },
+        "configurations_innodb_lru_scan_depth_name": {
+            "value": null
+        },
+        "configurations_innodb_old_blocks_pct_name": {
+            "value": null
+        },
+        "configurations_optimizer_prune_level_name": {
+            "value": null
+        },
+        "configurations_show_compatibility_56_name": {
+            "value": null
+        },
+        "configurations_innodb_deadlock_detect_name": {
+            "value": null
+        },
+        "configurations_innodb_io_capacity_max_name": {
+            "value": null
+        },
+        "configurations_innodb_old_blocks_time_name": {
+            "value": null
+        },
+        "configurations_innodb_read_io_threads_name": {
+            "value": null
+        },
+        "configurations_lower_case_table_names_name": {
+            "value": null
+        },
+        "configurations_max_points_in_geometry_name": {
+            "value": null
+        },
+        "configurations_max_sp_recursion_depth_name": {
+            "value": null
+        },
+        "configurations_min_examined_row_limit_name": {
+            "value": null
+        },
+        "configurations_optimizer_search_depth_name": {
+            "value": null
+        },
+        "configurations_div_precision_increment_name": {
+            "value": null
+        },
+        "configurations_innodb_change_buffering_name": {
+            "value": null
+        },
+        "configurations_innodb_purge_batch_size_name": {
+            "value": null
+        },
+        "configurations_innodb_stats_persistent_name": {
+            "value": null
+        },
+        "configurations_innodb_write_io_threads_name": {
+            "value": null
+        },
+        "configurations_max_prepared_stmt_count_name": {
+            "value": null
+        },
+        "configurations_innodb_adaptive_flushing_name": {
+            "value": null
+        },
+        "configurations_innodb_compression_level_name": {
+            "value": null
+        },
+        "configurations_innodb_lock_wait_timeout_name": {
+            "value": null
+        },
+        "configurations_innodb_random_read_ahead_name": {
+            "value": null
+        },
+        "configurations_innodb_rollback_segments_name": {
+            "value": null
+        },
+        "configurations_innodb_stats_auto_recalc_name": {
+            "value": null
+        },
+        "configurations_innodb_stats_on_metadata_name": {
+            "value": null
+        },
+        "configurations_max_length_for_sort_data_name": {
+            "value": null
+        },
+        "configurations_eq_range_index_dive_limit_name": {
+            "value": null
+        },
+        "configurations_innodb_default_row_format_name": {
+            "value": null
+        },
+        "configurations_innodb_ft_enable_stopword_name": {
+            "value": null
+        },
+        "configurations_innodb_thread_concurrency_name": {
+            "value": null
+        },
+        "configurations_innodb_thread_sleep_delay_name": {
+            "value": null
+        },
+        "configurations_log_slow_admin_statements_name": {
+            "value": null
+        },
+        "configurations_log_slow_slave_statements_name": {
+            "value": null
+        },
+        "configurations_innodb_adaptive_hash_index_name": {
+            "value": null
+        },
+        "configurations_innodb_concurrency_tickets_name": {
+            "value": null
+        },
+        "configurations_innodb_max_dirty_pages_pct_name": {
+            "value": null
+        },
+        "configurations_innodb_max_purge_lag_delay_name": {
+            "value": null
+        },
+        "configurations_session_track_state_change_name": {
+            "value": null
+        },
+        "configurations_updatable_views_with_limit_name": {
+            "value": null
+        },
+        "configurations_innodb_autoextend_increment_name": {
+            "value": null
+        },
+        "configurations_innodb_buffer_pool_dump_pct_name": {
+            "value": null
+        },
+        "configurations_innodb_ft_num_word_optimize_name": {
+            "value": null
+        },
+        "configurations_innodb_log_compressed_pages_name": {
+            "value": null
+        },
+        "configurations_innodb_read_ahead_threshold_name": {
+            "value": null
+        },
+        "configurations_innodb_adaptive_flushing_lwm_name": {
+            "value": null
+        },
+        "configurations_innodb_cmp_per_index_enabled_name": {
+            "value": null
+        },
+        "configurations_innodb_ft_result_cache_limit_name": {
+            "value": null
+        },
+        "configurations_innodb_change_buffer_max_size_name": {
+            "value": null
+        },
+        "configurations_innodb_optimize_fulltext_only_name": {
+            "value": null
+        },
+        "configurations_log_queries_not_using_indexes_name": {
+            "value": null
+        },
+        "configurations_binlog_group_commit_sync_delay_name": {
+            "value": null
+        },
+        "configurations_innodb_compression_pad_pct_max_name": {
+            "value": null
+        },
+        "configurations_innodb_max_dirty_pages_pct_lwm_name": {
+            "value": null
+        },
+        "configurations_innodb_adaptive_max_sleep_delay_name": {
+            "value": null
+        },
+        "configurations_log_bin_trust_function_creators_name": {
+            "value": null
+        },
+        "configurations_innodb_stats_include_delete_marked_name": {
+            "value": null
+        },
+        "configurations_innodb_stats_transient_sample_pages_name": {
+            "value": null
+        },
+        "configurations_innodb_purge_rseg_truncate_frequency_name": {
+            "value": null
+        },
+        "configurations_innodb_stats_persistent_sample_pages_name": {
+            "value": null
+        },
+        "configurations_log_throttle_queries_not_using_indexes_name": {
+            "value": null
+        },
+        "configurations_binlog_group_commit_sync_no_delay_count_name": {
+            "value": null
+        },
+        "configurations_innodb_compression_failure_threshold_pct_name": {
+            "value": null
+        }
+    }
+}
